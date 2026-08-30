@@ -37,7 +37,7 @@ Typical locations on the server:
 docker compose run --rm pgbadger
 ```
 
-This runs `repo.tara360.ir/uphold/pgbadger:latest` (linux/amd64), reads `logs/postgresql.log`, and writes `report/out.html`.
+This runs `uphold/pgbadger:latest` (linux/amd64), reads `logs/postgresql.log`, and writes `report/out.html`.
 
 A ~700MB log previously parsed in one pass (~247k queries, ~13k events).
 

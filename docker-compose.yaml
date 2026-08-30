@@ -1,6 +1,6 @@
 services:
   pgbadger:
-    image: repo.tara360.ir/uphold/pgbadger:latest
+    image: uphold/pgbadger:latest
     platform: linux/amd64
     volumes:
       - ./logs:/logs:ro
