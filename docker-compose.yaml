@@ -1,0 +1,11 @@
+services:
+  pgbadger:
+    image: repo.tara360.ir/uphold/pgbadger:latest
+    platform: linux/amd64
+    volumes:
+      - ./logs:/logs:ro
+      - ./report:/data
+    command:
+      - /logs/postgresql.log
+      - -o
+      - /data/out.html

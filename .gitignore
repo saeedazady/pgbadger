@@ -1,0 +1,22 @@
+# PostgreSQL logs (large; may contain query data)
+logs/*
+!logs/.gitkeep
+
+# Generated pgbadger reports
+report/*.html
+report/*.json
+report/*.bin
+report/*.txt
+!report/.gitkeep
+
+# Keep saved SQL samples
+!report/*.sql
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Codebase memory artifacts
+.codebase-memory/
